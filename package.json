@@ -1,6 +1,9 @@
 {
-  "name": "card",
+  "name": "@azhro/card",
   "version": "1.0.0",
+  "bin": {
+    "card": "./index.js"
+  },
   "description": "npx card",
   "main": "index.js",
   "scripts": {

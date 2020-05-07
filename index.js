@@ -5,7 +5,7 @@ const boxen = require("boxen");
 
 const card = {
   name: "                " + chalk.white.italic("Dorian Goffette - "),
-  pseudo: chalk.green.italic("Azhro"),
+  pseudo: chalk.redBright.italic("Azhro"),
   labelWork: chalk.white.bold("    Work:"),
   work: chalk.white("Learning at BeCode"),
   labelNpm: chalk.white.bold("     npm:"),
@@ -17,7 +17,7 @@ const card = {
     chalk.white.dim("https://linkedin.com/in/") +
     chalk.blue("dorian-goffette-740511133"),
   labelNpx: chalk.white.bold("    Card:"),
-  npx: chalk.white("npx azhro"),
+  npx: chalk.white("npx ") + chalk.redBright("@azhro") + chalk.white("/card"),
 };
 
 //End point
@@ -40,5 +40,3 @@ console.log(
     }
   )
 );
-
-//console.clear();
